@@ -1,0 +1,136 @@
+/*global style*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    
+
+}
+body{
+    background: #2e8b57;
+}
+/*container of the card */
+.grid{
+    display: grid;
+    width: 75%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+    grid-template-rows: 200px 500px;
+    grid-template-columns: 700px 400px 650px ;
+    gap: 30px;
+     
+}
+
+/*grid-1*/
+.name-intro{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 2px #000;
+   
+}
+.name-intro h3{
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Rockwell;
+    letter-spacing: 2px;    
+}
+.name-intro .loc{
+    border-radius: 100%;
+    
+    
+}
+.name-intro h4{
+    font-size: 30px; font-variant: small-caps;
+    font-weight: 400;
+    letter-spacing: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Grid-2*/
+.skills{
+    grid-row: 1/4;
+    grid-column: 2/3;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 2px #000;
+    
+}
+.skills .content{
+    text-align: center;
+    margin: 80px auto;
+    font-family: trebuchet ms;
+
+}
+
+.skills div{
+    padding-top: 40px;
+
+}
+.skills img{
+    border-radius: 100%;
+}
+/*grid-3*/
+.knowledge{
+    grid-row:1/4;
+    grid-column: 3/4;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 2px #000;
+}
+.knowledge .end{
+    text-align: center;
+    margin: 50% auto;
+    font-size: 95px;
+    font-variant-caps: all-petite-caps;
+}
+.knowledge .end span{
+    font-weight: bolder;
+    font-size: 130px;
+    text-shadow: 2px 4px 4px #000;
+}
+/*grid-4*/
+.profile{
+    background:#fff;
+    grid-row: 2/4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 2px #000;
+   
+}
+.profile ul li{
+    list-style-type: georgian;
+    list-style-position: inside;
+    margin-left: 50px;
+    font-variant-caps: all-petite-caps;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 70px;
+}
+.profile h3{
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.profile .fig{
+    background: #2f4f4f;
+    width: 500px;
+    height: 8px;
+    margin: 10px auto;
+    
+}
+.lists{
+    list-style-type: none;
+    margin: auto 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline #000;
+    background: #778899;
+    box-shadow: 4px 4px 5px #000;
+}
+
+
+
+
+
+
